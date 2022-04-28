@@ -14,8 +14,8 @@
  * ]) => 3`
  *
  */
-function countCats(backyard) {
-  return [].concat(...backyard).filter((item) => item === '^^').length;
+function countCats(matrix) {
+  return [].concat(...matrix).filter((item) => item === '^^').length;
 }
 
 module.exports = {
